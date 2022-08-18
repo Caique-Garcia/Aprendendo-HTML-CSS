@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 1em;
+	font-family: sans-serif;
+	background: #e6e6e6;
+}
+/* FORMATAÇÃO DE MENU*/
+a {
+	text-decoration: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #fff;
+	padding: 8px 12px;
+
+}
+
+#area-cabecalho a:hover {
+	color: #f7b600;
+	background: #fff;
+}
+
+/* Layout*/
+#area-cabecalho {
+	background-color: #f7b600 ;
+	padding: 15px;
+	text-align: center;
+
+}
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+	font-family: ;
+}
+h2 {
+	color: #f7b600;
+}
+.branco {
+	color: white;
+}
+
+#area-principal {
+	background: white;
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;
+}
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #ccc;
+
+}
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+.data-postagem {
+	font-size: 0.8em;
+	/*border: 1px solid #f4f4f4;*/
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+a:link, a:visited {
+	color: #f7b600;
+	
+}
+.postagem a:hover, .conteudo-lateral a:hover {
+	background: #ff7214;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #ff7214,
+				0 0 25px #ff7214,
+				0 0 50px #ff7214,
+				0 0 100px #ff7214;
+	
+}
+
+.conteudo-lateral {
+	background: #f2eee3;
+	padding: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0 15px 25px rgba(0, 0, 0,0.6); /*Sombra da caixa*/
+	border-radius: 10px;/*arredonda os cantos da borda externa de um elemento.*/
+
+}
+
+h3 {
+	color: #565656;
+	background: #ccc;
+	padding: 5px;
+}
+
+.texto-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #ccc ;
+
+}
+
+
