@@ -1,0 +1,33 @@
+ {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	width: 200px;
+	height: 40px;
+	margin: 5;
+	padding: 0px 0px;
+	color: white;
+	background: #1C1C1C;
+	display: block;
+}
+a {
+	
+	padding: 5px ;
+	text-decoration: none;
+	color: white;
+	width: 200px;
+	height: 40px;
+	display: block;
+}
+
+a:hover {
+
+	padding: 5px ;
+	color: #1C1C1C ;
+	background: white;
+	width: 200px;
+	height: 40px;
+}
