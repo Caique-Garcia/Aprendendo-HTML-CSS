@@ -48,7 +48,7 @@ div .menu-lateral {
 	float: left;
 	width: 64%;
 
-	border: 1px solid #607EAA;
+	/*border: 1px solid #607EAA;*/
 
 }
 
@@ -56,13 +56,13 @@ div .menu-lateral {
 	float: right;
 	width: 34%;
 	background-color: #F9F5EB;
-	border: 1px solid #607EAA;
+	/*border: 1px solid #607EAA;*/
 
 }
 
-.area-principal nav {
+/*.area-principal nav {
 	background-color: #607EAA;
-}
+}*/
 
 footer {
 	margin-top: 0;
@@ -73,4 +73,53 @@ footer {
 	text-align: center;
 
 }
+ /*Configuração Formulario de contato*/
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1C3879;
+	clear: both;
+}
 
+#contato {
+	width: 50%;
+	height: 400px;
+	padding: 25px 25px;
+	margin: 35px auto;
+	background-color: #483D8B;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 15px;
+	
+}
+
+form h2 {
+	color: #F9F5EB;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 20 px;
+}
+
+.conteudo-contato{
+	/*display: flex;*/
+	justify-items: center;
+	align-items: center;
+	border: 1px solid white;
+
+}
+
+fieldset {
+ border: 0px;
+
+}
+
+#contato label, input {
+	display: block;
+}
+/*#contao form div{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid red;
+}
+
+*/
