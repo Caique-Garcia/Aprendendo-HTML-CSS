@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body {
+	background-color: #EAE3D2;
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	
+}
+#container {
+	
+	min-width: 720px;
+	margin: 0 auto;
+	
+}
+
+
+.marca h1 {
+	padding-left: 10%;
+	background-color: #1C3879 ;
+	height: 56px;
+	color: #F9F5EB;
+	line-height: 56px;
+
+}
+#area-principal {
+
+	width: 80%;
+	margin: 0 auto;
+	
+}
+
+div .menu-lateral {
+	float: left;
+	width: 24%;
+	background-color: #607EAA;
+	border: 1px solid #607EAA;
+}
+
+.area-conteudo{
+	float: right;
+	width: 74%;
+
+}
+
+.conteudo1 {
+	float: left;
+	width: 64%;
+
+	border: 1px solid #607EAA;
+
+}
+
+.conteudo2 {
+	float: right;
+	width: 34%;
+	background-color: #F9F5EB;
+	border: 1px solid #607EAA;
+
+}
+
+.area-principal nav {
+	background-color: #607EAA;
+}
+
+footer {
+	margin-top: 0;
+	clear: both;
+	background-color: #1C3879 ;
+	color: #EAE3D2;
+	line-height: 36px;
+	text-align: center;
+
+}
+
