@@ -1,0 +1,38 @@
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	width: 200px;
+	height: 40px;
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	text-indent: 40px;
+	line-height: 40px;
+	background: url(imagens/menu.png) no-repeat left bottom;
+
+}
+
+ul a:hover  {
+	color: white;
+	background-position: right bottom;
+	background-color: black;
+
+}
+
+#home #barra-navegacao .home a,
+#pagina1 #barra-navegacao .pagina1 a,
+#pagina2 #barra-navegacao .pagina2 a,
+#pagina3 #barra-navegacao .pagina3 a,
+#pagina4 #barra-navegacao .pagina4 a,
+#pagina5 #barra-navegacao .pagina5 a,
+#pagina6 #barra-navegacao .pagina6 a
+ {
+	color: white;
+	background-position: right bottom;
+	background-color: black;
+
+}
