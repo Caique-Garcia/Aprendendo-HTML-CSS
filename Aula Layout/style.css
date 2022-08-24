@@ -10,7 +10,7 @@ body {
 }
 #container {
 	
-	min-width: 720px;
+	min-width: 1020px;
 	margin: 0 auto;
 	
 }
@@ -101,25 +101,84 @@ form h2 {
 }
 
 .conteudo-contato{
-	/*display: flex;*/
-	justify-items: center;
-	align-items: center;
-	border: 1px solid white;
-
+	display: flex;
+	height: 80%;
+	flex-flow: column wrap;
 }
 
 fieldset {
  border: 0px;
-
+ margin: 30px;
 }
 
 #contato label, input {
 	display: block;
 }
-/*#contao form div{
-	display: flex;
-	flex-direction: row;
-	border: 1px solid red;
+
+#contato label{
+	font-size: 16px;
+	color: #F9F5EB;
+}
+form input {
+	padding: 15px;
+	outline: none;
+	border: 0px;
+	margin-bottom:20px ;
+	transition: all 0.5s;
+
 }
 
-*/
+form input:focus {
+	border-radius: 16px;
+}
+
+form textarea {
+	padding: 10px;
+	outline: none;
+	border: 0;
+	font-size: 15px;
+	margin-bottom: 30px;
+	transition: all 0.5s;
+}
+form .mensagem {
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+
+form textarea:focus {
+	border-radius: 16px;
+}
+
+form button {
+	padding: 15px;
+	cursor: pointer;
+	font-size: 16px;
+	background: transparent;
+	border: 2px solid #F9F5EB;
+	color: #F9F5EB;
+	transition: all 0.5s;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+form button:hover {
+	background: #F9F5EB;
+	color: #483D8B;	
+}
+
+form .button-contato {
+	text-align: center;	
+}
+
+/*Fim da configuração Formulario de contato*/
+/*Configuração area da equipe de contato*/
+ .area-equipe {
+ 	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1C3879;
+	clear: both;
+	border: 2px solid red;
+ }
