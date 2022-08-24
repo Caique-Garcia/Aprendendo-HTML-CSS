@@ -175,10 +175,27 @@ form .button-contato {
 /*Fim da configuração Formulario de contato*/
 /*Configuração area da equipe de contato*/
  .area-equipe {
+
  	display: flex;
+ 	flex-direction: column;
+ 	height: 380px;
+ 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	background-color: #1C3879;
+	background-color: #EAE3D2;
 	clear: both;
 	border: 2px solid red;
+	
  }
+
+ .area-equipe h2 {
+ 	color: #1C3879;
+ 	margin-bottom: 20px;
+ }
+
+.area-equipe .card {
+
+	height: 68%;
+	width: 17%;
+	border: 2px solid red;
+}
